@@ -1,5 +1,8 @@
 package com.lzp.aicloudgallery.exception;
 
+import lombok.Getter;
+
+@Getter
 public class BusinessException extends RuntimeException{
 
     public final int code;
