@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.lzp.aicloudgallery.demos.web;
+package com.lzp.aicloudgallery.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

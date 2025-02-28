@@ -14,8 +14,9 @@
  * limitations under the License.
  */
 
-package com.lzp.aicloudgallery.demos.web;
+package com.lzp.aicloudgallery.controller;
 
+import com.lzp.aicloudgallery.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
