@@ -1,9 +1,14 @@
 package com.lzp.aicloudgallery.common;
 
 import com.lzp.aicloudgallery.exception.ErrorCode;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.io.Serializable;
 
+@Getter
+@Setter
 public class BaseResponse<T> implements Serializable {
 
     private int code;
